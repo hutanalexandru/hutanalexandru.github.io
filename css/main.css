@@ -1,0 +1,14 @@
+a {
+  text-decoration: none;
+}
+
+#wrapper {
+  margin: 0 auto;
+  max-width: 940px;
+  padding: 0 5%;
+}
+
+#logo {
+  margin: 0;
+  text-align: center;
+}

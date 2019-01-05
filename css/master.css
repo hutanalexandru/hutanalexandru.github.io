@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+}
+
+.firstcaption {
+  width: 33%;
+}
+
+.firstcaption p {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  background: blue;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+}

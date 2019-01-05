@@ -20,6 +20,14 @@ img {
   max-width: 100%;
 }
 
+h3 {
+  margin: 0 0 1em 0;
+}
+
+.fa-2x {
+  color: lightblue;
+}
+
 /**********************
         HEADING
 **********************/
@@ -88,11 +96,6 @@ footer {
   color: #ccc;
 }
 
-.fab {
-  color: #1DA1F2;
-  padding: 0 5px 0 5px;
-}
-
 /**********************
     PAGE:PORTFOLIO
 **********************/
@@ -117,6 +120,34 @@ footer {
   font-size: 0.7em;
   color: #bdc3c7;
 }
+
+/**********************
+    PAGE:ABOUT
+**********************/
+
+.profile-photo {
+  display: block;
+  max-width: 180px;
+  margin: 0 auto 30px;
+  border-radius: 50px;
+}
+
+/**********************
+    PAGE:CONTACT
+**********************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  padding-left: 10px;
+}
+
+
 
 /**********************
         COLORS

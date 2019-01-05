@@ -3,24 +3,38 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #b3e6ff;
+}
+
 header {
   text-align: center;
 }
 
-.firstcaption {
-  width: 33%;
+h1 {
+  margin-top: 40px;
 }
 
-.firstcaption p {
+section li {
+  width: 29.33333%;
+  float: left;
+  padding: 2%;
+  list-style: none;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
 }
 
 img {
   width: 100%;
+  height: 300px;
 }
 
 footer {
-  background: blue;
+  clear: both;
   text-align: center;
   font-size: 30px;
   margin-top: 50px;

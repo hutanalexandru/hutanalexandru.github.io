@@ -24,6 +24,12 @@ body {
     border: none;
 }
 
+@media screen and (max-width: 480px) {
+    .screen {
+        font-size: 2rem;
+    }
+}
+
 .buttons {
     display: flex;
     flex-wrap: wrap;

@@ -5,8 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Div, span, id and class</title>
+    <style>
+        .card {
+            border: 1px solid #ccc;
+            background: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+        .enhance {
+            color: yellow;
+            background-color: black;
+        }
+    </style>
 </head>
 <body>
-    
+    <div id="main-header">
+        <h1>My Website</h1>
+        <p>A site about me</p>
+    </div>
+    <ul id="main-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <div id="about" class="card">
+        <h3>About</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident porro accusantium alias aspernatur voluptatum magnam debitis! Iusto, suscipit? <span class="enhance">Quasi saepe commodi deleniti inventore!</span> Facere inventore reiciendis autem alias quas illo ratione unde, nulla repudiandae. Alias autem officiis blanditiis fugit ut!</p>
+    </div>
+    <div id="contact" class="card">
+        <h3>Contact</h3>
+        <ul>
+            <li>Address: Strada Principala, 105, Podeni SV</li>
+            <li>Phone: 0758 262 626</li>
+            <li>Email: hutan.alexandri@gmail.com</li>
+        </ul>
+        <div id="footer">
+            <p>Copyright &copy;2019</p>
+        </div>
+    </div>
 </body>
 </html>

@@ -4,24 +4,73 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial scale=1.0">
         <meta http-equiv="X-UA-compatible" content="ie=edge">
-        <title>Live server</title>
+        <title>My Blog - A Journey Through My Book</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+            header {
+                background-color: #333;
+                color: #fff;
+                padding: 1rem;
+                text-align: center;
+            }
+            nav {
+                background-color: #444;
+                color: #fff;
+                padding: 0.5rem;
+                text-align: center;
+            }
+            nav a {
+                color: #fff;
+                margin: 0 1rem;
+                text-decoration: none;
+            }
+            main {
+                padding: 2rem;
+            }
+            footer {
+                background-color: #333;
+                color: #fff;
+                text-align: center;
+                padding: 1rem;
+                position: fixed;
+                width: 100%;
+                bottom: 0;
+            }
+        </style>
     </head>
     <body>
-        <h1>Links to my project: HTML5</h1>
-        <div><a href="/html5/01_basic_layout.html">Basic Layout</a></div>
-        <div><a href="/html5/02_live_server.html">Live Server</a></div>
-        <div><a href="/html5/03_meta_tags.html">Meta Tags</a></div>
-        <div><a href=""></a></div>
-        <div><a href="/html5/04_typography.html">Typography</a></div>
-        <div><a href="/html5/05_links_images.html">Links and Images</a></div>
-        <div><a href="/html5/06_lists_tables.html">Lists and Tables</a></div>
-        <div><a href="/html5/07_forms_input.html">Forms and Input</a></div>
-        <div><a href="/html5/08_block_inline.html">Block and Inline</a></div>
-        <div><a href="/html5/09_id_class.html">Id and Class</a></div>
-        <div><a href="/html5/10_entities.html">Entities</a></div>
-        <div><a href="/html5/11_html5_semantics.html">Semantics</a></div>
-
-        <h1>Links to my project: CSS</h1>
-        <div><a href="/css-tutorial/01_basic.html">Implementing CSS</a></div>
+        <header>
+            <h1>My Blog</h1>
+            <p>Welcome to my blog where I share my journey of writing a book.</p>
+        </header>
+        <nav>
+            <a href="#latest-posts">Latest Posts</a>
+            <a href="#about-the-book">About the Book</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <main>
+            <section id="latest-posts">
+                <h2>Latest Posts</h2>
+                <div><a href="/posts/post1.html">Post 1: Introduction to My Journey</a></div>
+                <div><a href="/posts/post2.html">Post 2: The Writing Process</a></div>
+                <div><a href="/posts/post3.html">Post 3: Challenges and Triumphs</a></div>
+            </section>
+            <section id="about-the-book">
+                <h2>About the Book</h2>
+                <p>This section will provide an overview of the book, its themes, and its progress.</p>
+                <div><a href="/book/chapter1.html">Chapter 1: The Beginning</a></div>
+                <div><a href="/book/chapter2.html">Chapter 2: The Plot Thickens</a></div>
+                <div><a href="/book/chapter3.html">Chapter 3: The Climax</a></div>
+            </section>
+        </main>
+        <footer>
+            <p>Contact me at <a href="mailto:example@example.com">example@example.com</a></p>
+            <p>Follow me on <a href="https://twitter.com/example" target="_blank">Twitter</a> and <a href="https://facebook.com/example" target="_blank">Facebook</a></p>
+        </footer>
     </body>
 </html>
